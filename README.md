@@ -109,7 +109,7 @@ And its done!
 The normalize function don't explode any array fields, it will stop at any field of this type. 
 That's because the explode strategy needs to be carefully chosed with the data context in mind.
 If you need to go further, normalize the dataframe first and then apply the chosed explode strategy in each column that you want, and if you want,
-you can use the function again for normalize any struct field inside those new exploded fields.
+you can use the function again for normalize any struct field inside those new exploded columns.
 
 
 
